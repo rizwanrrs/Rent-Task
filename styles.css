@@ -20,12 +20,13 @@
   
   position:relative;
   top: 0%;
-  left: 4%;
+  left: 5%;
   transform: translate(-50% -50%);
-  width: 1050px;
-  height: 600px;
+  width: 1250px;
+  height: 550px;
   /* background: #ffffff; */
   box-shadow: 0 30px 50px #dbdbdb;
+  flex-wrap: wrap;
 }
 
 .container .slide .item {
@@ -626,6 +627,8 @@ footer {
   color: var(--white);
   background: var(--gradient);
 }
+
+
 
 @media (width > 540px) {
   .steps__grid {
