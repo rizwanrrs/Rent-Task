@@ -81,3 +81,14 @@ ScrollReveal().reveal(".download__links", {
   ...scrollRevealOption,
   delay: 1500,
 });
+
+
+// slider
+
+let next = document.querySelector('.next')
+let prev = document.querySelector('.prev')
+
+next.addEventListener('click', function(){
+  let items = document.querySelectorAll('.item')
+  document.querySelector('.slide').appendChild(items[0])
+})
